@@ -10,7 +10,7 @@ training_data = datasets.FashionMNIST(
     root="data",
     train=True,
     download=True,
-    transform=v2.ToTensor())
+    transform=v2.ToTensor()
 )
 
 # %%
